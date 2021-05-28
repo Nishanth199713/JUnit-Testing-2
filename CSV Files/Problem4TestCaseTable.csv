@@ -1,0 +1,22 @@
+1,Start,false,false,false,false,false,Welcome,false,S0
+2,S0,TRUE,false,false,false,false,Welcome,false,S0
+3,S0,false,TRUE,false,false,false,Welcome,false,S0
+4,S0,false,false,TRUE,false,false,Welcome,false,S0
+5,S0,false,false,false,TRUE,false,Ready,false,S1
+6,S0,false,false,false,false,TRUE,Welcome,false,S0
+7,S1,TRUE,false,false,false,false,Ready,false,S1
+8,S1,false,TRUE,false,false,false,Ready,false,S1
+9,S1,false,false,TRUE,false,false,Dispensing,false,S2
+10,S1,false,false,false,TRUE,false,Ready,false,S1
+11,S1,false,false,false,false,TRUE,Ready,false,S1
+12,S2,TRUE,false,TRUE,false,false,Dispensing,false,S2
+13,S2,false,TRUE,TRUE,false,false,Dispensing,TRUE,S2
+14,S2,false,false,TRUE,TRUE,false,Dispensing,FALSE,S2
+15,S2,false,false,TRUE,FALSE,false,Dispensing,FALSE,S2
+16,S2,false,false,FALSE,false,false,Ready,FALSE,S1
+17,S2,false,false,TRUE,FALSE,TRUE,Please Pay Cashier,false,S3
+18,S3,TRUE,false,false,false,false,Welcome,false,S0
+19,S3,false,TRUE,false,false,false,Please Pay Cashier,false,S3
+20,S3,false,false,TRUE,false,false,Please Pay Cashier,false,S3
+21,S3,false,false,false,TRUE,false,Please Pay Cashier,false,S3
+22,S3,false,false,false,false,TRUE,Please Pay Cashier,false,S3
